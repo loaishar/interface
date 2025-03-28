@@ -65,6 +65,27 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background-gray-main: rgb(248, 248, 247);
+  --border-dark: rgba(0, 0, 0, 0.08);
+  --text-primary: rgb(52, 50, 45);
+  --text-secondary: rgb(83, 83, 80);
+  --text-tertiary: rgb(133, 132, 129);
+  --fill-tsp-white-main: rgb(255, 255, 255);
+  --fill-tsp-white-dark: rgba(0, 0, 0, 0.04);
+  --icon-secondary: rgb(83, 83, 80);
+  --icon-white: rgb(52, 50, 45);
+  --icon-white-tsp: rgba(52, 50, 45, 0.8);
+  --icon-brand: #0081F2;
+  --border-main: rgba(0, 0, 0, 0.08);
+  --border-light: rgba(0, 0, 0, 0.06);
+  --fill-black: #000000;
+  --text-onblack: #FFFFFF;
+  --fill-tsp-gray-main: rgba(0, 0, 0, 0.04);
+  --fill-tsp-gray-dark: rgba(0, 0, 0, 0.08);
+  --function-success: #25BA3B;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -139,7 +160,7 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-[var(--background-gray-main)] text-[var(--text-primary)];
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
