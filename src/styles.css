@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.font-manus-im-inter-semi-bold {
+  font-family: var(--font-manus-im-inter-semi-bold);
+  font-weight: 600;
+}
+
+.font-manus-im-libre-baskerville-regular {
+  font-family: var(--font-manus-im-libre-baskerville-regular);
+  font-weight: 400;
+}
+
+/* Component styles */
+@layer components {
+  /* Add any component-specific styles here */
+}

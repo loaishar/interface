@@ -1,0 +1,27 @@
+OpenManus Web Interface Icons
+
+This file contains instructions for creating the necessary icons for the OpenManus Web Interface.
+
+Required Icons:
+1. openmanus-logo.svg - The main logo for OpenManus
+2. openmanus-icon.svg - A smaller icon version of the logo
+3. Tool Icons:
+   - browser_use.svg - Icon for the browser tool
+   - bash.svg - Icon for the terminal tool
+   - python_execute.svg - Icon for the Python executor tool
+   - str_replace_editor.svg - Icon for the file editor tool
+4. UI Icons:
+   - send-icon.svg - Icon for the send button
+   - refresh-icon.svg - Icon for refreshing content
+   - settings-icon.svg - Icon for settings
+   - command-icon.svg - Icon for command execution
+   - url-icon.svg - Icon for URL display
+   - browse-icon.svg - Icon for web browsing
+   - code-icon.svg - Icon for code writing
+   - file-icon.svg - Icon for file management
+   - terminal-icon.svg - Icon for terminal operations
+   - help-icon.svg - Icon for help
+
+You can create these icons using any SVG editor or download them from icon libraries like Font Awesome, Material Icons, or Heroicons.
+
+For a consistent look, use a single color (#0D6EFD for primary actions, #6C757D for secondary actions) and a simple, clean design.
